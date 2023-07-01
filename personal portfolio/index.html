@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="containers">
+            <div class="profile">
+                <img src="profile_img.jpeg" alt="Profile Image">
+            </div>
+            <div class="profile-info">
+                <h1>PRIYANKA PATEL</h1>
+                <h2>Web Developer</h2>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="Summary">
+        <div class="container">
+            <h2>Summary</h2>
+            <p class="skills-heading">My name is Priyanka Patel. Currently pursuing B.tech final year.</p>
+            <p>Creating responsive websites using HTML, CSS and JavaScript. </p>
+        </div>
+    </section>
+
+
+    <section id="Skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <p class="skills-heading">Skills acquired are:</p>
+            <ul class="skills-list">
+                <li>Front-end Development</li>
+                <li>Responsive Website</li>
+                <li>Web Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <p class="skills-heading">Check out some of my recent projects:</p>
+            <ul class="skill-list">
+                <li>
+                    <div class="project">
+                        <img src="calculator.jpg" alt="Calculator Project">
+                        <div class="project-info">
+                            <h3>Calculator</h3>
+                            <p>A simple calculator application built using HTML, CSS.</p>
+                            <a href="https://www.linkedin.com/posts/priyanka-patel-aa452b239_webdevelopment-internpe-html-activity-7047626609540907008-mPoy?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">View on LinkedIn</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <img src="LandingPage.jpg" alt="Todo App Project">
+                        <div class="project-info">
+                            <h3>Landing Page</h3>
+                            <p>A landing page of food delivery using HTML, CSS.</p>
+                            <a href="https://www.linkedin.com/posts/priyanka-patel-aa452b239_webdevelopment-learning-activity-7079853839721410560-U370?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">View on LinkedIn</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="project">
+                        <img src="TempConverter.jpg" alt="Calculator Project">
+                        <div class="project-info">
+                            <h3>Temperature Converter</h3>
+                            <p>A simple temperature converter application built using HTML, CSS, and JavaScript.</p>
+                            <a href="https://www.linkedin.com/posts/priyanka-patel-aa452b239_internpe-python-share-activity-7070027971725598720-FM8Q?utm_source=share&utm_medium=member_desktop"
+                                target="_blank">View on LinkedIn</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>You can view my resume by clicking the button below:</p>
+            <button class="resume-button" onclick="openResume()">View Resume</button>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me:</p>
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Priyanka Patel</p>
+            <p> Contact no - xxxxxx</p>
+        </div>
+    </footer>
+
+    <script>
+        function openResume() {
+            window.open("resume.html", "_blank");
+        }
+    </script>
+
+</body>
+
+</html>
